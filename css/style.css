@@ -1,12 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
+* { 
+ box-sizing: border-box;
+ margin: 0;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
+footer {
+ margin: 0 auto;
+ background-color: #161618;
 }
-.list-item {
-  display: inline-block;
+
+.footer__menu {}
+
+.footer__menu-item {}
+
+.footer__menu-item a {
+ color: #fff;
+ font-size: 15px;
+ list-style-type: none;
+}
+
+.footer__copy {
+ color: #999999
 }
