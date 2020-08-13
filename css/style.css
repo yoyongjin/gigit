@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+footer {
+    margin: 0 auto;
+    background-color: #161618;
+}
+
+.footer__menu {}
+
+.footer__menu-item {}
+
+.footer__menu-item a {
+    color: #fff;
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.footer__copy {
+    color: #999999
+}
