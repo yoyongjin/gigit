@@ -12,51 +12,121 @@ header {
   flex-flow: row nowrap;
 }
 
+a {
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+}
+
 footer {
- margin: 0 auto;
- background-color: #161618;
-}
-.nav-main {
-}
-.nav-list {
-  list-style: none;
-  height: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-}
-.list-item {
-  font-size: 1.1rem;
-  font-weight: 400;
-  padding: 0 5px 0 5px;
-}
-.list-item a {
-  color: #777777;
-  text-decoration: none;
-  display: block;
-  padding: 20px 20px 0 20px;
-  height: 100%;
-}
-.list-item a:hover {
-    border-bottom: 2px solid rgba(60, 128, 255, 0.432);
-}
-.main-logo {
-  padding: 10px 10px 0 10px;
-}
-.logo {
-  width: 52px;
-  height: 52px;
+    padding: 55px 0;
+    background-color: #161618;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
-.footer__menu {}
+.footer__menu {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    flex-flow: row wrap;
 
-.footer__menu-item {}
+}
+
+.footer__menu-item {
+    font-size: 11px;
+    margin-right: 10px;
+    padding: 10px 12px;
+}
 
 .footer__menu-item a {
- color: #fff;
- font-size: 15px;
- list-style-type: none;
+    font-size: 15px;
+    list-style-type: none;
+}
+
+.footer__menu-item a:hover {
+    color: rgb(160, 160, 160);
+}
+
+.footer__social {
+    margin-bottom: 30px;
+}
+
+.fab {
+    margin: 0 8px;
 }
 
 .footer__copy {
- color: #999999
+    display: block;
+    color: #999999;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.footer__copy p {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer__copy span {
+    display: block;
+    font-size: 10px;
+}
+
+.footer__global {
+    color: #fff;
+    list-style-type: none;
+    margin-bottom: 35px;
+}
+
+.footer__global li:first-child {
+    margin-bottom: 10px;
+}
+
+.fas {
+    margin: 0 10px 0 0;
+}
+
+.footer__cookie {
+    margin-bottom: 50px;
+}
+
+.footer__cookie li {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding: 0 15px;
+}
+
+.footer__cookie li a {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer__cookie li:last-child {
+    border-right: none;
+}
+
+.footer__logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer__top a {
+    display: block;
+    padding: 15px 60px;
+    border: 1px solid #fff;
+}
+
+.footer__top a:hover {
+    background-color: #ffffff;
+    color: #000;
 }
