@@ -103,7 +103,7 @@ li {
   box-sizing: border-box;
   padding-top: 15%;
   padding-left: 5%;
-  padding-bottom: 20%;
+  height: 700px;
   /* display: none; */
 }
 .main__mid .btn__more__mid{
