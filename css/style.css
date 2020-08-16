@@ -11,8 +11,8 @@ header {
   height: 70px;
   width: 100%;
   flex-flow: row nowrap;
-}
-.nav-main {
+  position: fixed;
+  background-color: #fff;
 }
 .nav-list {
   list-style: none;
@@ -36,6 +36,7 @@ header {
     border-bottom: 2px solid rgba(60, 128, 255, 0.432);
 }
 .main-logo {
+  margin: 0 0 0 130px;
   padding: 10px 10px 0 10px;
 }
 .logo {
